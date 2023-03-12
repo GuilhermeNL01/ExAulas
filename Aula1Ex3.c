@@ -17,7 +17,7 @@ int main() {
     if (latas == 1) {
         printf("Voce precisa de 1 lata de tinta para pintar uma parede de %.2f m x %.2f m.\n", largura, altura);
     } else {
-        printf("Você precisa de %.0f latas de tinta para pintar uma parede de %.2f m x %.2f m.\n", latas, largura, altura);
+        printf("Voce precisa de %.0f latas de tinta para pintar uma parede de %.2f m x %.2f m.\n", latas, largura, altura);
     }
     
     return 0;

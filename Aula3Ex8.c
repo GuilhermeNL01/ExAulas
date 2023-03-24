@@ -4,7 +4,7 @@ int main() {
     int prato, sobremesa, bebida;
     float total_calorias = 0;
 
-    // solicitando ao usuário que informe o prato, sobremesa e bebida
+    
     printf("Informe o prato: ");
     scanf("%d", &prato);
     printf("Informe a sobremesa: ");
@@ -12,7 +12,7 @@ int main() {
     printf("Informe a bebida: ");
     scanf("%d", &bebida);
 
-    // calculando a quantidade total de calorias
+   
     switch(prato) {
         case 1:
             total_calorias += 180;
@@ -67,7 +67,7 @@ int main() {
             return 0;
     }
 
-    // exibindo a quantidade total de calorias da refeição
+   
     printf("A quantidade total de calorias da refeicao e: %.2f cal", total_calorias);
 
     return 0;
